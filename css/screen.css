@@ -1,0 +1,139 @@
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display);
+
+body {
+  font-family: Helvetica;
+  background-color:
+}
+
+nav {
+  text-align: center;
+}
+
+#container {
+  margin: 0 auto;
+  width: 960px;
+  background: #fff;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 96px;
+  color: rgba(255,0,0,0.6);
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: -4px;
+  margin-top: -30px;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+h4 {
+  font-family:'Playfair Display', serif;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-family: Helvetica;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: normal;
+}
+
+address {
+  text-align: center;
+  margin-bottom: -4px;
+  margin-top: -4px;
+}
+
+section {
+  line-height:
+}
+
+mark {
+  background-color: rgba(255,0,0,0.6);
+}
+
+
+.circle {
+    line-height: 3px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #000;
+    height:300px;
+    width: 300px;
+    margin: auto;
+}
+
+.line-separator{
+
+height:1px;
+width: 445px;
+margin: 0 auto;
+background:#000;
+
+}
+
+
+#experience {
+  float: left;
+  width: 450px;
+  margin-top: -25px;
+}
+
+#education {
+  float: right;
+  width: 450px;
+}
+
+#skills {
+  float:right;
+  width: 450px;
+}
+
+#related {
+  float: right;
+  width: 450px;
+}
+
+#reference {
+  float: right;
+  width: 450px;
+}
+
+#educationtitle {
+  font-family:'Playfair Display', serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+#edutext {
+  line-height: 2.25px;
+}
+
+#reftext {
+  text-align: center;
+}
+
+a:link {
+  color: #000;
+}
+
+a:hover {
+  color: rgba(255,0,0,0.6);
+}
+
+a:visited {
+  color: #000;
+}
