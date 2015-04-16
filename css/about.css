@@ -1,0 +1,9 @@
+* {
+  background-color:#000000;
+}
+
+#container {
+  margin: 0 auto;
+  width: 960px;
+  background: #ffffff;
+}
