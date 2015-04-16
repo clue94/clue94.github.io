@@ -1,4 +1,4 @@
-* {
+body {
   background-color: #000000;
 }
 
@@ -21,19 +21,12 @@ img {
 }
 
 #test {
-    animation: fadein 8s;
-    -moz-animation: fadein 8s; /* Firefox */
-    -webkit-animation: fadein 8s; /* Safari and Chrome */
-    -o-animation: fadein 8s; /* Opera */
+    -moz-animation: fadein 8s 1; /* Firefox */
+    -webkit-animation: fadein 8s 1; /* Safari and Chrome */
+    -o-animation: fadein 8s 1; /* Opera */
+    animation: fadein 8s 1;
 }
-@keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
+
 @-moz-keyframes fadein { /* Firefox */
     from {
         opacity:0;
@@ -56,5 +49,14 @@ img {
     }
     to {
         opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
     }
 }
