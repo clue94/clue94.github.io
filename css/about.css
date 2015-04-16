@@ -1,9 +1,24 @@
 * {
-  background-color:#000000;
+  background-color: #000000;
+background-image: url("dark_mosaic.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 #container {
-  margin: 0 auto;
+  background-color: white;
   width: 960px;
-  background: #ffffff;
+  margin: 0 auto;
+  padding: 1em;
+  border: 1px solid #ccc;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+nav {
+  text-align: center;
+  font-family: Helvetica;
 }

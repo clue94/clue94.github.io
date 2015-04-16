@@ -15,6 +15,7 @@ nav {
   background: #fff;
 }
 
+
 h1 {
   font-family: 'Playfair Display', serif;
   font-size: 96px;
@@ -60,6 +61,7 @@ section {
 
 mark {
   background-color: rgba(255,0,0,0.6);
+  padding: 0.15em;
 }
 
 
@@ -73,14 +75,6 @@ mark {
     margin: auto;
 }
 
-.line-separator{
-
-height:1px;
-width: 445px;
-margin: 0 auto;
-background:#000;
-
-}
 
 
 #experience {
@@ -92,6 +86,7 @@ background:#000;
 #education {
   float: right;
   width: 450px;
+  padding-bottom: 2em;
 }
 
 #skills {
