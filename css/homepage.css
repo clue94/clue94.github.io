@@ -126,18 +126,36 @@ h1 {
   font-size: 22pt;
 }
 
-h3 {
+h2 {
   font-family: sans-serif;
+}
+
+h4 {
+  font-family: sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
 }
 
 p {
   font-family: sans-serif;
-  font-size: 12pt;
+  font-size: 11pt;
 }
 
 li {
   font-family: sans-serif;
-  font-size: 12pt;
+  font-size: 11pt;
+}
+
+label {
+  font-family: sans-serif;
+}
+
+article {
+  padding-bottom: 0.05em;
+}
+
+.table {
+  display: inline-block;
 }
 
 /* Main Navigation */
@@ -189,8 +207,8 @@ a.icons:hover {
 
 .slides {
     padding: 0;
-    width: 309px;
-    height: 420px;
+    width: 500px;
+    height: 600px;
     display: block;
     margin: 0 auto;
     position: relative;
@@ -212,8 +230,8 @@ a.icons:hover {
 .slide {
     top: 0;
     opacity: 0;
-    width: 300px;
-    height: 400px;
+    width: 500px;
+    height: 600px;
     display: block;
     position: absolute;
 
@@ -267,7 +285,7 @@ input:checked + .slide-container .nav label { display: block; }
 .nav-dots {
 	width: 100%;
 	bottom: 9px;
-	height: 11px;
+	height: 10px;
 	display: block;
 	position: absolute;
 	text-align: center;
