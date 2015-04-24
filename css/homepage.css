@@ -4,6 +4,86 @@
   background-color: #000000;
 }
 
+#about {
+  background-image: url("../img/dark_mosaic.png");
+}
+
+nav {
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
+
+a:active {
+    color: black;
+    background-color: white;
+}
+
+#container {
+  background-color: white;
+  width: 960px;
+  margin: 0 auto;
+  padding: 1em;
+  overflow: hidden
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+footer {
+  background-color: transparent;
+  width: 1165px;
+}
+
+.icons{
+    display:inline-block;
+    float: right;
+    font-size: 0;
+  }
+
+a.icons:link {
+  opacity: 0.5
+}
+
+a.icons:hover {
+  opacity: 1
+}
+
+/*index.html */
+
 #logo {
   display: block;
   margin: 0 auto;
@@ -23,14 +103,14 @@
   margin-top:-200px;
 }
 
+/* Animation for Fade In */
+
 #animation {
     -moz-animation: fadein 8s 1; /* Firefox */
     -webkit-animation: fadein 8s 1; /* Safari and Chrome */
     -o-animation: fadein 8s 1; /* Opera */
     animation: fadein 8s 1;
 }
-
-/* Animation for Fade In */
 
 @-moz-keyframes fadein { /* Firefox */
     from {
@@ -68,16 +148,16 @@
 
 /* End Animation for Fade In */
 
-#about {
-  background-image: url("../img/dark_mosaic.png");
+/* about.html */
+
+h1 {
+  font-family:'Oswald', sans-serif;
+  font-size: 22pt;
 }
 
-#container {
-  background-color: white;
-  width: 960px;
-  margin: 0 auto;
-  padding: 1em;
-  overflow: hidden
+p {
+  font-family: sans-serif;
+  font-size: 11pt;
 }
 
 #aboutme {
@@ -90,6 +170,8 @@
   width: 460px;
 }
 
+/*resume.html */
+
 #resumephoto {
   float: right;
   width: 460px;
@@ -99,32 +181,11 @@
   line-height: 2.25px;
 }
 
-img {
-  display: block;
-  margin: 0 auto;
-  padding: 1em;
-}
-
-nav {
-  text-align: center;
-  font-family: Helvetica;
-  padding-bottom: 2em;
-}
-
 main {
   float: left;
   width: 460px;
 }
 
-footer {
-  background-color: transparent;
-  width: 1165px;
-}
-
-h1 {
-  font-family:'Oswald', sans-serif;
-  font-size: 22pt;
-}
 
 h2 {
   font-family: sans-serif;
@@ -136,70 +197,16 @@ h4 {
   text-transform: uppercase;
 }
 
-p {
-  font-family: sans-serif;
-  font-size: 11pt;
-}
 
 li {
   font-family: sans-serif;
   font-size: 11pt;
 }
 
-label {
-  font-family: sans-serif;
-}
-
 article {
   padding-bottom: 0.05em;
 }
 
-.table {
-  display: inline-block;
-}
-
-/* Main Navigation */
-
-#nav:link {
-  color: white;
-  text-decoration: none;
-}
-
-#nav:visited {
-  color: white;
-  text-decoration: none;
-}
-
-#nav:hover {
-  color: black;
-  background-color: white;
-  text-decoration: none;
-}
-
-#nav:active {
-    color: black;
-    background-color: white;
-}
-
-/* End Main Navigation */
-
-/* Footer Social Media Icons */
-
-.icons{
-    display:inline-block;
-    float: right;
-    font-size: 0;
-  }
-
-a.icons:link {
-  opacity: 0.5
-}
-
-a.icons:hover {
-  opacity: 1
-}
-
-/* End Footer Social Media Icons */
 
 /* Animation for Image Slider */
 
@@ -230,7 +237,6 @@ a.icons:hover {
 .slide {
     top: 0;
     opacity: 0;
-    width: 500px;
     height: 600px;
     display: block;
     position: absolute;
@@ -246,7 +252,7 @@ a.icons:hover {
 }
 
 .nav label {
-    width: 50px;
+    width: 200px;
     height: 100%;
     display: none;
     position: absolute;
