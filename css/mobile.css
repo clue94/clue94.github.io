@@ -1,8 +1,7 @@
 @media (max-width: 320px) {
 
-  #animation {
-    border: 0;
-    max-width: 320px;
+  #index {
+    width: 320px;
     margin: 0;
     padding: 0.5em;
   }
@@ -12,6 +11,15 @@
     width: 320px;
     margin: 0;
     padding: 0.5em;
+  }
+
+  #logo {
+    width: 260px;
+    padding-bottom: 10em;
+  }
+
+  .entersite {
+    font-size:14px;
   }
 
   #aboutme {
@@ -37,8 +45,6 @@
   footer {
     display: none;
   }
-
-
 
 
 }
