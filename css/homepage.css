@@ -39,16 +39,19 @@ ul li > a:visited {
 }
 
 ul li > a:hover,
-.active {
+ul li > a.active {
   color: black;
   background-color: white;
   text-decoration: none;
 }
 
+/*
 ul li > a:active {
     color: black;
     background-color: white;
 }
+
+*/
 
 #container {
   background-color: white;
@@ -239,6 +242,7 @@ article {
     top: 0;
     opacity: 0;
     height: 600px;
+    width: 463px;
     display: block;
     position: absolute;
 
