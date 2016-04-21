@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Serif);
 @import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
 
 #index {
   background-color: #000000;
@@ -10,8 +11,9 @@
 }
 
 nav {
-  text-align: center;
+  text-align: right;
   padding-bottom: 2em;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 nav ul {
