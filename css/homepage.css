@@ -11,9 +11,8 @@
 }
 
 nav {
-  text-align: right;
+  text-align: center;
   padding-bottom: 2em;
-  font-family: 'Source Sans Pro', sans-serif;
 }
 
 nav ul {
@@ -25,6 +24,7 @@ nav ul {
 nav ul li {
   display: inline-block;
   margin-right: 1em;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 nav ul li:last-child {
