@@ -11,19 +11,6 @@
 }
 
 nav {
-  text-align: center;
-  padding-bottom: 2em;
-}
-
-nav ul {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin-right: 1em;
 }
 
 nav ul li:last-child {
@@ -46,13 +33,6 @@ ul li > a.active {
   text-decoration: none;
 }
 
-/*
-ul li > a:active {
-    color: black;
-    background-color: white;
-}
-
-*/
 
 #container {
   background-color: white;
