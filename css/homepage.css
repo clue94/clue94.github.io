@@ -12,10 +12,13 @@
 
 nav {
   word-spacing: 7px;
-  font-family: 'Source Sans Pro', sans-serif;
   padding-bottom: 2em;
   display: inline;
   }
+
+.nav {
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
   nav ul {
   list-style: none;
