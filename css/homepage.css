@@ -79,6 +79,7 @@ footer {
     display:inline-block;
     float: right;
     font-size: 0;
+    color: black;
   }
 
 a.icons:link {
