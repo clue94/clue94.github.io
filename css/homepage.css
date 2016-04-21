@@ -43,7 +43,7 @@ ul li > a:visited {
 
 ul li > a:hover,
 ul li > a.active {
-  color: grey;
+  color: #700000;
   text-decoration: none;
 }
 
