@@ -19,6 +19,7 @@ nav {
   nav ul {
   list-style: none;
   text-align: right;
+  display: inline;
   }
 
   nav ul li {
@@ -102,8 +103,6 @@ a.icons:hover {
 h1 {
   font-family: 'Slabo 27px', serif;
   font-size: 22pt;
-  display:inline;
-  margin-top: -20px;
 }
 
 p {
