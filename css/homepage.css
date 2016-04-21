@@ -1,6 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Noto+Serif);
 @import url(https://fonts.googleapis.com/css?family=Slabo+27px);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,600,900);
 
 #index {
   background-color: #000000;
@@ -105,8 +105,8 @@ a.icons:hover {
 
 
 h1 {
-  font-family: 'Slabo 27px', serif;
-  font-size: 22pt;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
 }
 
 p {
