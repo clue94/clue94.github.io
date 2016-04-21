@@ -27,6 +27,7 @@ nav {
   nav ul li {
   display: inline;
   font-family: 'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
   }
 
 
@@ -142,8 +143,7 @@ h4 {
 
 
 li {
-  font-family: sans-serif;
-  font-size: 11pt;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 article {
