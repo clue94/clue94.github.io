@@ -14,11 +14,9 @@ nav {
   word-spacing: 7px;
   padding-bottom: 2em;
   display: inline;
+  float: right;
   }
 
-.nav {
-  font-family: 'Source Sans Pro', sans-serif;
-}
 
   nav ul {
   list-style: none;
