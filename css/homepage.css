@@ -132,13 +132,8 @@ main {
 
 
 h2 {
-  font-family: sans-serif;
-}
-
-h4 {
-  font-family: sans-serif;
-  font-weight: normal;
-  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #700000;
 }
 
 
