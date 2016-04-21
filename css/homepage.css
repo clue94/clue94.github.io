@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Serif);
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
 
 #index {
   background-color: #000000;
@@ -155,7 +156,7 @@ a.icons:hover {
 /* about.html */
 
 h1 {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Slabo 27px', serif;
   font-size: 22pt;
 }
 
