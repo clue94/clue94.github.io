@@ -127,8 +127,9 @@ main {
 
 .left {
   float:left;
-  width: 310px;
-  margin-right: -25px;
+  width: 270px;
+  height: 370px;
+  background: url(img/Newspaper.jpg);
 }
 
 .left:hover {
@@ -147,26 +148,25 @@ main {
   padding:30px;
   }
 
-.middle {
-  float: center;
-  width: 310px;
+.center {
+  margin: 0 auto;
 }
 
 .right {
   float: right;
-  width: 310px;
-  margin-top: -445px;
+  width: 270px;
+  margin-top: -400px;
 }
 
 .lefttwo{
   float: left;
-  width: 470px;
+  width: 460px;
 }
 
 .righttwo {
   float: right;
-  width: 470px;
-  margin-top: -335px;
+  width: 460px;
+  margin-top: -400px;
 }
 
 h2 {
