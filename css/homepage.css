@@ -134,7 +134,7 @@ h2 {
 }
 
 #resume{
-  text-align: left;
+  margin-left: -100px;
 }
 
 #edutext {
