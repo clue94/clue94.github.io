@@ -196,27 +196,82 @@ main {
 .lefttwo{
   float: left;
   width: 460px;
+  filter: url(filters.svg#grayscale);
+  /* Firefox 3.5+ */
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome & Safari 6+ */
+}
+
+.lefttwo:hover {
+  filter: none;
+  -webkit-filter: none;
 }
 
 .righttwo {
   float: right;
   width: 460px;
   margin-top: -290px;
+  filter: url(filters.svg#grayscale);
+  /* Firefox 3.5+ */
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome & Safari 6+ */
+}
+
+.righttwo:hover {
+  filter: none;
+  -webkit-filter: none;
 }
 
 .leftthree {
   float: left;
   width: 280px;
+  filter: url(filters.svg#grayscale);
+  /* Firefox 3.5+ */
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome & Safari 6+ */
+}
+
+.leftthree:hover {
+  filter: none;
+  -webkit-filter: none;
 }
 
 .middlethree {
   float: left;
   width: 280px;
+  filter: url(filters.svg#grayscale);
+  /* Firefox 3.5+ */
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome & Safari 6+ */
+}
+
+.middlethree:hover {
+  filter: none;
+  -webkit-filter: none;
 }
 
 .rightthree {
   float:right;
   width: 280px;
+  filter: url(filters.svg#grayscale);
+  /* Firefox 3.5+ */
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome & Safari 6+ */
+}
+
+.rightthree:hover {
+  filter: none;
+  -webkit-filter: none;
 }
 
 h2 {
