@@ -341,11 +341,9 @@ article {
     left: 0;
 }
 #slider a {
-    display: block;
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
-    padding: 4px 6px;
     color: black;
 }
 
