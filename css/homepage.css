@@ -130,6 +130,11 @@ main {
   width: 270px;
 }
 
+.left:hover {
+  opacity:0.3;
+  filter: alpha(opacity=30);
+}
+
 .center {
   margin: 0 auto;
 }
