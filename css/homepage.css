@@ -314,7 +314,6 @@ article {
     height: 600px;
     overflow: hidden;
     position: relative;
-
     margin: 20px auto;
 }
 #images img {
@@ -337,8 +336,11 @@ article {
     z-index: 9;
     opacity: 1;
 }
+
 #images img:first-child {
+  left: 0;
 }
+
 #slider a {
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
