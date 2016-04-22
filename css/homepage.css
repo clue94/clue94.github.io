@@ -342,9 +342,6 @@ article {
 }
 #slider a {
     position: absolute;
-    top: 0;
-    left: -400px;
-    z-index: 1;
     text-decoration: none;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
