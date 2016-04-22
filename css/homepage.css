@@ -163,7 +163,7 @@ main {
 
 .middle {
   float:left;
-  width: 290px;
+  width: 270px;
   filter: url(filters.svg#grayscale);
   /* Firefox 3.5+ */
   filter: gray;
