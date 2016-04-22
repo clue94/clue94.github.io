@@ -127,17 +127,17 @@ main {
 
 .left {
   float:left;
-  width: 320px;
+  width: 310px;
 }
 
 .center {
   float: center;
-  width: 320px;
+  width: 310px;
 }
 
 .right {
   float: right;
-  width: 320px;
+  width: 310px;
 }
 
 h2 {
