@@ -338,7 +338,6 @@ article {
     opacity: 1;
 }
 #images img:first-child {
-    left: 0;
 }
 #slider a {
     text-decoration: none;
