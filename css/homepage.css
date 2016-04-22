@@ -171,17 +171,17 @@ main {
 
 .leftthree {
   float: left;
-  width: 270px;
+  width: 280px;
 }
 
 .middlethree {
   margin: 0 auto;
-  width: 270px;
+  width: 280px;
 }
 
 .rightthree {
   float:right;
-  width: 270px;
+  width: 280px;
 }
 
 h2 {
