@@ -128,9 +128,6 @@ main {
 .left {
   float:left;
   width: 270px;
-  height: 370px;
-  background: src="img/Newspaper1.jpg"
-
 }
 
 .left:hover {
