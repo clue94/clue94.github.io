@@ -149,6 +149,7 @@ main {
 .middle {
   float: center;
   width: 310px;
+  margin-left: -50px;
 }
 
 .right {
