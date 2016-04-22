@@ -150,6 +150,7 @@ main {
 
 .center {
   margin: 0 auto;
+  width: 310px;
 }
 
 .right {
@@ -166,7 +167,7 @@ main {
 .righttwo {
   float: right;
   width: 470px;
-  margin-top: -340px;
+  margin-top: -335px;
 }
 
 h2 {
