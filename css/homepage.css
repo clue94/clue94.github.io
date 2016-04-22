@@ -351,5 +351,9 @@ body {
   color: #222;
 }
 #slider a:hover {
-  background: #700000;
+  color: #700000;
+}
+
+#slider a:active {
+  color: #700000;
 }
