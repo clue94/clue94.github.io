@@ -127,7 +127,7 @@ main {
 
 .left {
   float:left;
-  width: 280px;
+  width: 290px;
   filter: url(filters.svg#grayscale);
   /* Firefox 3.5+ */
   filter: gray;
@@ -163,7 +163,7 @@ main {
 
 .middle {
   float:left;
-  width: 280px;
+  width: 290px;
   filter: url(filters.svg#grayscale);
   /* Firefox 3.5+ */
   filter: gray;
@@ -179,7 +179,7 @@ main {
 
 .right {
   float: right;
-  width: 400px;
+  width: 380px;
   filter: url(filters.svg#grayscale);
   /* Firefox 3.5+ */
   filter: gray;
