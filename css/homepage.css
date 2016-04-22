@@ -160,12 +160,12 @@ main {
 
 .lefttwo{
   float: left;
-  width: 480px;
+  width: 470px;
 }
 
 .righttwo {
   float: right;
-  width: 480px;
+  width: 470px;
   margin-top: -370px;
 }
 
