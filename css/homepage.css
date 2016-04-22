@@ -128,9 +128,20 @@ main {
 .left {
   float:left;
   width: 270px;
-  height: 370px;
-  background: url(img/Newspaper.jpg);
+  filter: url(filters.svg#grayscale);
+  /* Firefox 3.5+ */
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome & Safari 6+ */
 }
+
+.left:hover {
+  filter: none;
+  -webkit-filter: none;
+}
+
+/*
 
 .left:hover {
   opacity:0.3;
@@ -147,6 +158,8 @@ main {
   text-transform: uppercase;
   padding:30px;
   }
+
+  */
 
 .middle {
   margin: 0 auto;
