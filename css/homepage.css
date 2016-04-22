@@ -126,7 +126,7 @@ main {
 }
 
 .left {
-  float:left
+  float:left;
   width: 320px;
 }
 
