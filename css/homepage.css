@@ -155,7 +155,7 @@ main {
 .right {
   float: right;
   width: 310px;
-  margin-top: -400px;
+  margin-top: -500px;
 }
 
 .lefttwo{
@@ -166,7 +166,7 @@ main {
 .righttwo {
   float: right;
   width: 470px;
-  margin-top: -440px;
+  margin-top: -340px;
 }
 
 h2 {
