@@ -2,9 +2,6 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,600,900);
 
-* {
-    box-sizing: border-box;
-}
 
 #index {
   background-color: #000000;
@@ -85,8 +82,6 @@ a.icons:link {
 a.icons:hover {
   opacity: 1
 }
-
-/*index.html */
 
 #logo {
   display: block;
