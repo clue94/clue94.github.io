@@ -128,7 +128,6 @@ main {
 .left {
   float:left;
   width: 310px;
-  margin-right: -200px;
 }
 
 .left:hover {
@@ -147,8 +146,9 @@ main {
   padding:30px;
   }
 
-.center {
-  margin: 0 auto;
+.middle {
+  float: center;
+  width: 310px;
 }
 
 .right {
