@@ -179,7 +179,7 @@ main {
 
 .right {
   float: right;
-  width: 380px;
+  width: 290px;
   filter: url(filters.svg#grayscale);
   /* Firefox 3.5+ */
   filter: gray;
