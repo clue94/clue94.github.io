@@ -341,8 +341,11 @@ article {
     left: 0;
 }
 #slider a {
+    position: absolute;
+    top: 0;
+    left: -400px;
+    z-index: 1;
     text-decoration: none;
-    text-align:center;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     padding: 4px 6px;
