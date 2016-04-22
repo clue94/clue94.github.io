@@ -175,6 +175,7 @@ main {
 }
 
 .middlethree {
+  float: left;
   width: 280px;
 }
 
