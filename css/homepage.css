@@ -127,8 +127,8 @@ main {
 
 .left {
   float:left;
-  width: 270px;
-  height: 370px;
+  width: 310px;
+  height: 410px;
   background: url(img/Newspaper.jpg);
 }
 
@@ -154,7 +154,7 @@ main {
 
 .right {
   float: right;
-  width: 270px;
+  width: 310px;
   margin-top: -400px;
 }
 
