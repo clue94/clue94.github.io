@@ -135,6 +135,17 @@ main {
   filter: alpha(opacity=30);
 }
 
+.left:hover .text {
+  opacity:0.6;
+  text-align:justify;
+  color:#000000;
+  font-size:20px;
+  font-weight:300;
+  font-family:'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
+  padding:30px;
+  }
+
 .center {
   margin: 0 auto;
 }
