@@ -158,6 +158,16 @@ main {
   margin-top: -400px;
 }
 
+.lefttwo{
+  float: left;
+  width: 460px;
+}
+
+.righttwo {
+  float: right;
+  width: 460px;
+}
+
 h2 {
   font-family: 'Source Sans Pro', sans-serif;
   color: #700000;
