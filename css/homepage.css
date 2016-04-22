@@ -169,6 +169,11 @@ main {
   margin-top: -290px;
 }
 
+.leftthree {
+  float: left;
+  width: 270px;
+}
+
 h2 {
   font-family: 'Source Sans Pro', sans-serif;
   color: #700000;
