@@ -177,6 +177,8 @@ main {
 .middlethree {
   margin: 0 auto;
   width: 280px;
+  margin-left: -200px;
+  margin-bottom:
 }
 
 .rightthree {
