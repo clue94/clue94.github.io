@@ -382,7 +382,8 @@ footer {
 }
 
 .icons{
-    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
     text-decoration: none;
     word-spacing: 20px;
     font-family: 'Source Sans Pro', sans-serif;
