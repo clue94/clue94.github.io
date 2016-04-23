@@ -363,15 +363,16 @@ body {
   opacity: 1;
 }
 
+#slider {
+  width:100%;
+}
+
 #slider a {
   text-decoration: none;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   padding: 4px 6px;
   color: #222;
-  margin-right: auto;
-  margin-left: auto;
-  width: 100%;
 }
 #slider > a:hover,
 #slider > a:active {
