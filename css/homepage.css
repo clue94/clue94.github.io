@@ -378,11 +378,10 @@ body {
 
 footer {
   background-color: transparent;
-  margin: 0 auto;
+  width: 100%;
 }
 
 .icons{
-    margin-right: -581px;
     text-decoration: none;
     word-spacing: 20px;
     font-family: 'Source Sans Pro', sans-serif;
