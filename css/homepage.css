@@ -64,25 +64,6 @@ img {
   padding: 1em;
 }
 
-footer {
-  background-color: transparent;
-  width: 1165px;
-}
-
-.icons{
-    display:inline-block;
-    float: right;
-    font-size: 0;
-    color: black;
-  }
-
-a.icons:link {
-  opacity: 0.5
-}
-
-a.icons:hover {
-  opacity: 1
-}
 
 #logo {
   display: block;
@@ -393,4 +374,25 @@ body {
 #slider > a:active {
   color: #700000;
 
+}
+
+footer {
+  background-color: transparent;
+  width: 1165px;
+}
+
+.icons{
+    display:inline-block;
+    word-spacing: 7px;
+    float: right;
+    font-size: 0;
+    color: black;
+  }
+
+a.icons:link {
+  opacity: 0.5
+}
+
+a.icons:hover {
+  opacity: 1
 }
