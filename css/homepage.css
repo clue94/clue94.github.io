@@ -378,14 +378,15 @@ body {
 
 footer {
   background-color: transparent;
-  width: 1165px;
 }
 
 .icons{
-    display:inline-block;
-    word-spacing: 7px;
+    margin: 0 auto;
+    text-decoration: none;
+    word-spacing: 20px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
+    font size: 12px;
     text-transform: uppercase;
     color: black;
   }
