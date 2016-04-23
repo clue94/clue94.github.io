@@ -259,7 +259,7 @@ main {
 
 .leftfour {
   float:left;
-  width: 240px;
+  width: 200px;
   filter: url(filters.svg#grayscale);
   /* Firefox 3.5+ */
   filter: gray;
@@ -275,7 +275,7 @@ main {
 
 .middleleft {
   float:left;
-  width: 240px;
+  width: 200px;
   filter: url(filters.svg#grayscale);
   /* Firefox 3.5+ */
   filter: gray;
@@ -291,7 +291,7 @@ main {
 
 .middleright {
   float:right;
-  width: 240px;
+  width: 200px;
   filter: url(filters.svg#grayscale);
   /* Firefox 3.5+ */
   filter: gray;
@@ -307,7 +307,7 @@ main {
 
 .rightfour {
   float:right;
-  width: 240px;
+  width: 200px;
   filter: url(filters.svg#grayscale);
   /* Firefox 3.5+ */
   filter: gray;
