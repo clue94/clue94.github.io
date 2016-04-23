@@ -384,15 +384,18 @@ footer {
 .icons{
     display:inline-block;
     word-spacing: 7px;
-    float: right;
-    font-size: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
     color: black;
   }
-
+ /*
 a.icons:link {
   opacity: 0.5
 }
 
+*/
+
 a.icons:hover {
-  opacity: 1
+  color: #700000;
 }
