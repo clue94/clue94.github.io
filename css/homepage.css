@@ -382,8 +382,8 @@ footer {
 
 .icons{
     margin: 0 auto;
-    decoration: none;
-    word-spacing: 7px;
+    text-decoration: none;
+    word-spacing: 15px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     font-size: 12px;
