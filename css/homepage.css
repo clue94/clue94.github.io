@@ -350,6 +350,8 @@ body {
   padding: 4px 6px;
   color: #222;
 }
-#slider a:hover {
+#slider a:hover,
+#slider a:active {
   color: #700000;
+
 }
