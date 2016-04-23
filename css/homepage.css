@@ -295,7 +295,7 @@ article {
 }
 
 body {
-  
+
   }
 #images {
   width: 400px;
@@ -381,7 +381,7 @@ footer {
 }
 
 .icons{
-    margin: 0 auto;
+    text-align:center;
     text-decoration: none;
     word-spacing: 20px;
     font-family: 'Source Sans Pro', sans-serif;
