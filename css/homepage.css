@@ -257,6 +257,70 @@ main {
   -webkit-filter: none;
 }
 
+.leftfour {
+  float:left;
+  width: 240px;
+  filter: url(filters.svg#grayscale);
+  /* Firefox 3.5+ */
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome & Safari 6+ */
+}
+
+.leftfour:hover {
+  filter: none;
+  -webkit-filter: none;
+}
+
+.middleleft {
+  float:left;
+  width: 240px;
+  filter: url(filters.svg#grayscale);
+  /* Firefox 3.5+ */
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome & Safari 6+ */
+}
+
+.middleleft:hover {
+  filter: none;
+  -webkit-filter: none;
+}
+
+.middleright {
+  float:right;
+  width: 240px;
+  filter: url(filters.svg#grayscale);
+  /* Firefox 3.5+ */
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome & Safari 6+ */
+}
+
+.middleright:hover {
+  filter: none;
+  -webkit-filter: none;
+}
+
+.rightfour {
+  float:right;
+  width: 240px;
+  filter: url(filters.svg#grayscale);
+  /* Firefox 3.5+ */
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome & Safari 6+ */
+}
+
+.rightfour:hover {
+  filter: none;
+  -webkit-filter: none;
+}
+
 h2 {
   font-family: 'Source Sans Pro', sans-serif;
   color: #700000;
