@@ -273,7 +273,7 @@ main {
   -webkit-filter: none;
 }
 
-.middleleft {
+.middlefour {
   float:left;
   width: 280px;
   filter: url(filters.svg#grayscale);
@@ -284,23 +284,7 @@ main {
   /* Google Chrome & Safari 6+ */
 }
 
-.middleleft:hover {
-  filter: none;
-  -webkit-filter: none;
-}
-
-.middleright {
-  float:right;
-  width: 280px;
-  filter: url(filters.svg#grayscale);
-  /* Firefox 3.5+ */
-  filter: gray;
-  /* IE6-9 */
-  -webkit-filter: grayscale(1);
-  /* Google Chrome & Safari 6+ */
-}
-
-.middleright:hover {
+.middlefour:hover {
   filter: none;
   -webkit-filter: none;
 }
@@ -320,6 +304,7 @@ main {
   filter: none;
   -webkit-filter: none;
 }
+
 
 h2 {
   font-family: 'Source Sans Pro', sans-serif;
