@@ -483,6 +483,10 @@ footer {
   font-style: italic;
 }
 
+a.write:hover {
+  color: #700000;
+}
+
  /*
 a.icons:link {
   opacity: 0.5
