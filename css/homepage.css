@@ -476,6 +476,12 @@ footer {
     text-transform: uppercase;
     color: black;
   }
+
+.write {
+  text-decoration: none;
+  color: black;
+}
+
  /*
 a.icons:link {
   opacity: 0.5
