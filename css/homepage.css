@@ -479,7 +479,8 @@ footer {
 
 .write {
   text-decoration: none;
-  color: black;
+  color: #700000;
+  font-style: italic;
 }
 
  /*
